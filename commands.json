@@ -1,0 +1,93 @@
+{
+    "commands": [{
+        "name": "/help",
+        "baseName": "/help",
+        "permission": "",
+        "description": "Вывести эту помощь"
+    }, {
+        "name": "/start",
+        "baseName": "/start",
+        "permission": "isNotRegistered",
+        "description": "Начать опрос на знание правил"
+    }, {
+        "name": "/nickname <никнейм>",
+        "baseName": "/nickname",
+        "permission": "isRegistered",
+        "description": "Установить никнейм"
+    }, {
+        "name": "/cmd <команда>",
+        "baseName": "/cmd",
+        "permission": "executeCommands",
+        "description": "Запустить команду на сервере"
+    }, {
+        "name": "/restart",
+        "baseName": "/restart",
+        "permission": "TODO",
+        "description": "TODO Сохранить мир и перезагрузить сервер"
+    }, {
+        "name": "/forceRestart",
+        "baseName": "/forceRestart",
+        "permission": "TODO",
+        "description": "TODO Перезагрузить сервер без сохранения мира"
+    }, {
+        "name": "/config <field> <value>",
+        "baseName": "/config",
+        "permission": "TODO",
+        "description": "Изменить значение в конфиге"
+    }, {
+        "name": "/rcon reconnect",
+        "baseName": "/rcon",
+        "permission": "TODO",
+        "description": "TODO Попробовать переподключиться по RCON"
+    }, {
+        "name": "/subscribe",
+        "baseName": "/subscribe",
+        "permission": "notifications",
+        "description": "Подписаться на уведомления о событиях в боте"
+    }, {
+        "name": "/unsubscribe",
+        "baseName": "/unsubscribe",
+        "permission": "notifications",
+        "description": "Отписаться от уведомлений"
+    }, {
+        "name": "/addperm <ник> <список прав>",
+        "baseName": "/addperm",
+        "permission": "TODO",
+        "description": "TODO Добавить игроку разрешения в боте"
+    }, {
+        "name": "/removeperm <ник> <список прав>",
+        "baseName": "/removeperm",
+        "permission": "TODO",
+        "description": "TODO Убрать у игрока разрешения в боте"
+    }, {
+        "name": "/perm <ник>",
+        "baseName": "/perm",
+        "permission": "TODO",
+        "description": "TODO Просмотреть разрешения игрока в боте"
+    }, {
+        "name": "/joinfaction <название>",
+        "baseName": "/joinfaction",
+        "permission": "TODO",
+        "description": "TODO Присоединиться к союзу или фракции"
+    }, {
+        "name": "/exitfaction",
+        "baseName": "/exitfaction",
+        "permission": "TODO",
+        "description": "TODO Выйти из союза или фракции"
+    }, {
+        "name": "/appeal",
+        "baseName": "/appeal",
+        "permission": "isRegistered",
+        "description": "Создать обращение к администрации"
+    }, {
+        "name": "/contract",
+        "baseName": "/contract",
+        "permission": "isRegistered",
+        "description": "Зарегистрировать договор"
+    }, {
+        "name": "/cancel",
+        "baseName": "/cancel",
+        "permission": "",
+        "description": "Отменить текущее действие"
+    }]
+}

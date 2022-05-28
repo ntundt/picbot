@@ -1,0 +1,22 @@
+{
+    "vk": {
+        "confirmationToken": "",
+        "accessToken": ""
+    },
+    "telegram": {
+        "accessToken": ""
+    },
+    "server": {
+        "host": "",
+        "port": 0,
+        "password": ""
+    },
+    "database": {
+        "host": "",
+        "login": "",
+        "password": "",
+        "name": ""
+    },
+    "port": 0,
+    "domain": ""
+}

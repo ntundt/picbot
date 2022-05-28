@@ -1,0 +1,90 @@
+{
+    "error": {
+        "user_with_given_nickname_not_found": "Игрок {0} не найден",
+        "nickname_already_used": "Никнейм {0} уже используется",
+        "nickname_invalid": "Неправильный никнейм",
+        "five_mins_have_not_passed": "Пять минут еще не прошли.",
+        "user_has_no_rights": "У вас недостаточно прав для использования этой команды.",
+        "nickname_changed_less_than_24_hours_ago": "Вы меняли никнейм менее 24 часов назад."
+    },
+    "bridge": {
+        "admin_dialogue": "Диалог с администратором. /exit для завершения.",
+        "player_dialogue": "Диалог с игроком {0}. /exit для завершения.",
+        "aborted": "Диалог завершен",
+        "aborted_by_interlocutor": "Диалог завершен собеседником"
+    },
+    "contractreg": {
+        "send_contract_text": "Отправьте текст договора",
+        "send_nicknames": "Отправьте никнеймы участвующих игроков",
+        "invalid_nickname": "Неправильный никнейм",
+        "player_not_found": "Игрок {0} не найден",
+        "waiting_for_confirmation": "Сохранено. Ждем подтверждения игроками.",
+        "more_than_one_player_needed": "Укажите хотя бы одного игрока кроме себя.",
+        "contract_does_not_exit": "Указанный договор не существует.",
+        "you_do_not_participate": "Вы не участвуете в этом договоре.",
+        "you_have_already_signed": "Вы уже подписали этот договор.",
+        "signed": "Договор подписан.",
+        "player_signed": "{0} подписал договор #{1}",
+        "player_signed_effect_taken": "{0} подписал договор #{1}. Договор вступил в силу",
+        "contract_get": "Договор #{0}\n\n{1}\n\nСтороны: {2}",
+        "signed_effect_taken": "Договор подписан и вступил в силу.",
+        "sign": "Подписать",
+        "contract_taken_effect": "Договор #{0} вступил в силу.\n\n{1}\n\nСтороны: {2}"
+    },
+    "association" : {
+        "create": "Создать объединение",
+        "you_are_not_a_member": "Вы не состоите ни в каком объединении"
+    },
+    "config": {
+        "incorrect_format": "Неверный формат команды",
+        "change_successful": "Конфиг успешно изменен\n\n{0}",
+        "field_not_found": "Заданное поле не существует"
+    },
+    "cmd": {
+        "no_connection_to_server_console_mode_unavailable": "Нет соединения с сервером. Режим консоли недоступен.",
+        "no_connection_to_server_command_saved": "Нет соединения с сервером. Команда записана и будет выполнена, когда соединение появится.",
+        "console_mode": "Режим консоли сервера. /exit для выхода."
+    },
+    "rcon": {
+        "trynna_connect_to_the_server": "Пробую подключиться к серверу..."
+    },
+    "cancelled": "Отменено",
+    "send_me_your_nickname": "Отправьте мне свой никнейм (учитывайте регистр)",
+    "you_have_to_pass_interview": "Вы должны пройти опрос на знание правил.\n\n/start, чтобы начать.",
+    "nickname_saved_signup": "Хорошо, запомнили. Если ошиблись — ничего страшного, его можно будет изменить.\n\nПрочтите, пожалуйста, правила, если ещё этого не сделали. Когда закончите, отправьте «готов».\nhttps://vk.com/@politica3-aktualnye-pravila-servera",
+    "nickname_whitelisted": "Ник установлен и занесён в белый список.",
+    "nickname_can_not_be_used": "Этот ник не может использоваться.",
+    "answer_to_questions_by_digit": "Отвечайте на вопросы, отправляя номера правильных ответов.\nНапример: 2 3\n\nВ вопросе может быть несколько правильных ответов.",
+    "correct_next_question": "Правильно. Следующий вопрос.",
+    "correct_interview_passed": "Вы успешно прошли опрос — и были занесены в белый список. Можете начинать играть под ником {0}.\nIP — 135.125.230.222:29246",
+    "answer_incorrect": "К сожалению, это неправильный ответ.\n\nПрочтите, пожалуйста, правила. Вы сможете попробовать снова через 5 минут. Отправьте «готов», когда будете готовы.\nhttps://vk.com/@politica3-aktualnye-pravila-servera",
+    "correct_last_question": "Правильно. Последний вопрос.\n\nКак вы нашли наш сервер?\n\n1. Сам\n2. Меня пригласил другой игрок",
+    "tell_me_please_nickname": "Пришлите, пожалуйста, ник игрока, который вас пригласил. /skip, чтобы пропустить",
+    "ready": "готов",
+    "your_nickname_is": "Ваш никнейм — {0}\nИзменен {1}",
+    "send_needed_subscriptions": "Пришлите список подписок.\nДоступные:\n{0}\nВы подписаны:\n{1}",
+    "subscriptions_added": "Подписки добавлены.",
+    "subscriptions_removed": "Подписки удалены.",
+    "write_appeal": "Опишите сущность обращения. Поместите все в одно сообщение.",
+    "appeal_added": "Обращение сохранено. Мы уведомим вас, когда оно будет рассмотрено.",
+    "notification_bot_starting": "Успешно запустился (*/ω＼*)\nОкружение: {0}",
+    "notification_server_connected": "Подключился к серверу ╰(*°▽°*)╯",
+    "notification_server_fell_off_reconnecting": "Сервер отвалился (¬_¬ )\nПробую переподключиться через три минуты",
+    "notification_server_cant_connect": "Не могу подключиться к серверу. Либо он выключен, либо нужно проверить конфиги.\n\n{0}",
+    "notification_got_message_from_user": "Получено сообщение от пользователя {0}: \n«{1}»\n\nState:{2}",
+    "appeal_someone_working": "{0} уже работает над этим обращением",
+    "appeal_status_set": "Статус обращения обновлен.",
+    "notifications": {
+        "new_appeal": "Получено обращение от игрока {0}.\n\n{1}",
+        "take_assignment": "Взяться",
+        "satisfy": "Удовлетворить",
+        "close": "Закрыть",
+        "close_no_notification": "Закрыть без уведомления",
+        "go_to_dialog": "Диалог с игроком",
+        "appeal_closed": "Ваше обращение от {0} закрыто.",
+        "appeal_satisfied": "Ваше обращение от {0} удовлетворено.",
+        "appeal_taken": "Ваше обращение от {0} сейчас рассматривается администратором.",
+        "new_player": "Игрок {0} прошел опрос",
+        "player_changed_nickname": "Игрок {0} изменил никнейм на {1}"
+    }
+}

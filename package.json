@@ -1,0 +1,54 @@
+{
+  "name": "picbot",
+  "version": "0.1.0",
+  "description": "Бот для сервера Minecraft «Политика в кубе»",
+  "main": "src/main.ts",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "copy-assets": "ts-node tools/copyAssets",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "tsc": "tsc",
+    "build": "npm-run-all clean lint tsc copy-assets",
+    "dev:start": "npm-run-all build start",
+    "dev": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
+    "debug": "nodemon src/main.ts",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "tsc && scp -r -P 1288 ./build mtsikhan@85.209.148.14:/home/mtsikhan/picbot/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntundt/i-will-add-it-later.git"
+  },
+  "keywords": [
+    "bot",
+    "vk",
+    "telegram",
+    "web"
+  ],
+  "author": "Mikita Tsikhanovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntundt/i-will-add-it-later/issues"
+  },
+  "homepage": "https://github.com/ntundt/i-will-add-it-later#readme",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.51.4",
+    "easyvk": "^2.8.2",
+    "express": "^4.17.1",
+    "global-request-logger": "^0.1.1",
+    "mysql2": "^2.3.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "node-vk-sdk": "^1.1.7",
+    "nodemon": "^2.0.12",
+    "rcon-client": "^4.2.3",
+    "tslint": "^6.1.3",
+    "typeorm": "^0.2.37",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.4.13",
+    "ts-node": "^10.4.0"
+  }
+}

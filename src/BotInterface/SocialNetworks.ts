@@ -1,0 +1,1 @@
+export type SocialNetwork = 'VK' | 'Telegram' | 'Discord';
