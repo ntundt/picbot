@@ -11,8 +11,6 @@ let nickname: botCommandHandler = async (message: IMessage) => {
     let oldNickname = await user.getNickname();
     let argv = message.getText().split(' ');
 
-    // TODO: Add check if user is banned
-
     if (argv.length === 1) {
         let changed = new Date((await user.getEntity()).nicknameChangedTimestamp * 1000);
         let changedStr = `${changed.getDate() < 10 ? '0' + changed.getDate() : changed.getDate()}`
@@ -37,6 +35,14 @@ let nickname: botCommandHandler = async (message: IMessage) => {
 
     if (await UserCreator.nicknameTaken(argv[1])) {
         user.message(stringFormat(strings.error.nickname_already_used, argv[1]));
+        return;
+    }
+
+    // Check if user is banned
+    let banned = await Server.command('banlist');
+    console.log('banned: ' + banned);
+    if (banned.toLowerCase().includes(oldNickname.toLowerCase())) {
+        user.message(strings.error.change_nickname_banned);
         return;
     }
 

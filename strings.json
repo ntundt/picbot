@@ -1,11 +1,12 @@
 {
     "error": {
         "user_with_given_nickname_not_found": "Игрок {0} не найден",
-        "nickname_already_used": "Никнейм {0} уже используется",
-        "nickname_invalid": "Неправильный никнейм",
+        "nickname_already_used": "Ник {0} уже используется",
+        "nickname_invalid": "Неправильный ник",
         "five_mins_have_not_passed": "Пять минут еще не прошли.",
-        "user_has_no_rights": "У вас недостаточно прав для использования этой команды.",
-        "nickname_changed_less_than_24_hours_ago": "Вы меняли никнейм менее 24 часов назад."
+        "user_has_no_rights": "Вы не можете использовать эту команду. Помощь: /help",
+        "nickname_changed_less_than_24_hours_ago": "Вы меняли ник менее 24 часов назад.",
+        "change_nickname_banned": "Нельзя изменить ник: вы забанены на сервере"
     },
     "bridge": {
         "admin_dialogue": "Диалог с администратором. /exit для завершения.",
@@ -16,7 +17,7 @@
     "contractreg": {
         "send_contract_text": "Отправьте текст договора",
         "send_nicknames": "Отправьте никнеймы участвующих игроков",
-        "invalid_nickname": "Неправильный никнейм",
+        "invalid_nickname": "Неправильный ник",
         "player_not_found": "Игрок {0} не найден",
         "waiting_for_confirmation": "Сохранено. Ждем подтверждения игроками.",
         "more_than_one_player_needed": "Укажите хотя бы одного игрока кроме себя.",
@@ -46,10 +47,11 @@
         "console_mode": "Режим консоли сервера. /exit для выхода."
     },
     "rcon": {
-        "trynna_connect_to_the_server": "Пробую подключиться к серверу..."
+        "trynna_connect_to_the_server": "Пробую подключиться к серверу...",
+        "rcon_usage": "Формат: /rcon reconnect|password|host|port"
     },
     "cancelled": "Отменено",
-    "send_me_your_nickname": "Отправьте мне свой никнейм (учитывайте регистр)",
+    "send_me_your_nickname": "Отправьте мне свой ник (учитывайте регистр)",
     "you_have_to_pass_interview": "Вы должны пройти опрос на знание правил.\n\n/start, чтобы начать.",
     "nickname_saved_signup": "Хорошо, запомнили. Если ошиблись — ничего страшного, его можно будет изменить.\n\nПрочтите, пожалуйста, правила, если ещё этого не сделали. Когда закончите, отправьте «готов».\nhttps://vk.com/@politica3-aktualnye-pravila-servera",
     "nickname_whitelisted": "Ник установлен и занесён в белый список.",
@@ -85,6 +87,6 @@
         "appeal_satisfied": "Ваше обращение от {0} удовлетворено.",
         "appeal_taken": "Ваше обращение от {0} сейчас рассматривается администратором.",
         "new_player": "Игрок {0} прошел опрос",
-        "player_changed_nickname": "Игрок {0} изменил никнейм на {1}"
+        "player_changed_nickname": "Игрок {0} изменил ник на {1}"
     }
 }
